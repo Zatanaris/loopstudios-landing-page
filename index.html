@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | Loopstudios landing page</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+        />
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <header class="header container">
+            <a href="#" class="logo">
+                <img src="images/logo.svg" alt="logo" />
+            </a>
+
+            <nav class="navigation">
+                <ul class="nav--list">
+                    <li class="nav--item">
+                        <a class="nav--link" href="#">About</a>
+                    </li>
+                    <li class="nav--item">
+                        <a class="nav--link" href="#">Careers</a>
+                    </li>
+                    <li class="nav--item">
+                        <a class="nav--link" href="#">Events</a>
+                    </li>
+                    <li class="nav--item">
+                        <a class="nav--link" href="#">Products</a>
+                    </li>
+                    <li class="nav--item">
+                        <a class="nav--link" href="#">Support</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="bx bx-menu" id="open--btn"></div>
+        </header>
+
+        <div class="hide" id="content">
+            <div class="menu">
+                <div class="flex">
+                    <a href="#" class="logo">
+                        <img src="images/logo.svg" alt="logo" />
+                    </a>
+
+                    <div class="bx bx-x" id="close--btn"></div>
+                </div>
+
+                <ul class="menu--links">
+                    <li class="menu--item">
+                        <a href="#" class="menu--link">About</a>
+                    </li>
+                    <li class="menu--item">
+                        <a href="#" class="menu--link">Careers</a>
+                    </li>
+                    <li class="menu--item">
+                        <a href="#" class="menu--link">Events</a>
+                    </li>
+                    <li class="menu--item">
+                        <a href="#" class="menu--link">Products</a>
+                    </li>
+                    <li class="menu--item">
+                        <a href="#" class="menu--link">Support</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <main class="grid-container">
+            <section class="hero">
+                <h1 class="heading">Immersive experiences that deliver</h1>
+            </section>
+
+            <section class="About">
+                <div class="content">
+                    <picture>
+                        <source
+                            srcset="/images/desktop/image-interactive.jpg"
+                            media="(width > 920px)"
+                        />
+                        <img
+                            src="/images/mobile/image-interactive.jpg"
+                            alt="interactive"
+                        />
+                    </picture>
+
+                    <div class="text--about">
+                        <h2 class="title">The leader in interactive VR</h2>
+
+                        <p class="text">
+                            Founded in 2011, Loopstudios has been producing
+                            world-class virtual reality projects for some of the
+                            best companies around the globe. Our award-winning
+                            creations have transformed businesses through
+                            digital experiences that bind to their brand.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project">
+                <div class="grop">
+                    <h2 class="title-project">Our creations</h2>
+
+                    <a href="#" class="btn-project">See all</a>
+                </div>
+
+                <div class="cards">
+                    <article class="card">
+                        <picture>
+                            <source
+                                srcset="/images/desktop/image-deep-earth.jpg"
+                                media="(width > 920px)"
+                            />
+                            <img
+                                src="/images/mobile/image-deep-earth.jpg"
+                                alt="image-deep-earth"
+                            />
+                        </picture>
+                        <h3 class="title-card">Deep earth</h3>
+                    </article>
+                    <article class="card">
+                        <picture>
+                            <source
+                                srcset="/images/desktop/image-night-arcade.jpg"
+                                media="(width > 920px)"
+                            />
+                            <img
+                                src="/images/mobile/image-night-arcade.jpg"
+                                alt="image-night-arcade"
+                            />
+                        </picture>
+                        <h3 class="title-card">Night arcade</h3>
+                    </article>
+                    <article class="card">
+                        <picture>
+                            <source
+                                srcset="/images/desktop/image-soccer-team.jpg"
+                                media="(width > 920px)"
+                            />
+                            <img
+                                src="/images/mobile/image-soccer-team.jpg"
+                                alt="image-soccer-team"
+                            />
+                        </picture>
+                        <h3 class="title-card">Soccer team VR</h3>
+                    </article>
+                    <article class="card">
+                        <picture>
+                            <source
+                                srcset="/images/desktop/image-grid.jpg"
+                                media="(width > 920px)"
+                            />
+                            <img
+                                src="/images/mobile/image-grid.jpg"
+                                alt="image-grid"
+                            />
+                        </picture>
+                        <h3 class="title-card">The grid</h3>
+                    </article>
+                    <article class="card">
+                        <picture>
+                            <source
+                                srcset="/images/desktop/image-from-above.jpg"
+                                media="(width > 920px)"
+                            />
+                            <img
+                                src="/images/mobile/image-from-above.jpg"
+                                alt="From up above VR"
+                            />
+                        </picture>
+                        <h3 class="title-card">From up above VR</h3>
+                    </article>
+                    <article class="card">
+                        <picture>
+                            <source
+                                srcset="
+                                    /images/desktop/image-pocket-borealis.jpg
+                                "
+                                media="(width > 920px)"
+                            />
+                            <img
+                                src="/images/mobile/image-pocket-borealis.jpg"
+                                alt="Pocket borealis"
+                            />
+                        </picture>
+                        <h3 class="title-card">Pocket borealis</h3>
+                    </article>
+                    <article class="card">
+                        <picture>
+                            <source
+                                srcset="/images/desktop/image-curiosity.jpg"
+                                media="(width > 920px)"
+                            />
+                            <img
+                                src="/images/mobile/image-curiosity.jpg"
+                                alt="The curiosity"
+                            />
+                        </picture>
+                        <h3 class="title-card">The curiosity</h3>
+                    </article>
+                    <article class="card">
+                        <picture>
+                            <source
+                                srcset="/images/desktop/image-fisheye.jpg"
+                                media="(width > 920px)"
+                            />
+                            <img
+                                src="/images/mobile/image-fisheye.jpg"
+                                alt="Make it fisheye"
+                            />
+                        </picture>
+                        <h3 class="title-card">Make it fisheye</h3>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div>
+                    <a href="#" class="footer-logo">
+                        <img src="images/logo.svg" alt="footer logo" />
+                    </a>
+
+                    <nav class="second-navgation">
+                        <ul class="nav-list-footer">
+                            <li class="nav-item-footer">
+                                <a href="#" class="nav-link-footer">About</a>
+                            </li>
+                            <li class="nav-item-footer">
+                                <a href="#" class="nav-link-footer">Careers</a>
+                            </li>
+                            <li class="nav-item-footer">
+                                <a href="#" class="nav-link-footer">Events</a>
+                            </li>
+                            <li class="nav-item-footer">
+                                <a href="#" class="nav-link-footer">Products</a>
+                            </li>
+                            <li class="nav-item-footer">
+                                <a href="#" class="nav-link-footer">Support</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <div class="social">
+                        <a href="#" class="social-link">
+                            <i class="bx bxl-facebook-square"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="bx bxl-pinterest"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                    </div>
+                    <span class="reservetion"
+                        >© 2021 Loopstudios. All rights reserved.</span
+                    >
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
